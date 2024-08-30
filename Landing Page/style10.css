@@ -1,0 +1,40 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    position: relative;
+    overflow: hidden;
+}
+#page{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+canvas{
+    height: 100vh;
+    width: 100vw;
+    
+}
+#nav{
+    position: fixed;
+    z-index: 99;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 3%;
+    border-radius: 20px;
+    height: 10vh;
+    width: 30vw;
+    background-color: #ffffff54;
+    backdrop-filter: blur(10px);
+}
+#page1{
+    height: 100vh;
+    width: 100vw;
+    background-color: indigo;
+}
